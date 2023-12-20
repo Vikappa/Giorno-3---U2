@@ -7,6 +7,8 @@
 }
 
 
+
+
 /* #shopWrap,
 #flexible {
     margin: 0 auto;
@@ -26,7 +28,7 @@ h1 {
 
 #productCard {
     background-color: #FBF7E3;
-    width: 320px;
+    width: 300px;
     margin: 20px;
     border-radius: 70px;
     min-height: 380px;
@@ -65,7 +67,8 @@ h1 {
 
 #productCard div span {
     width: 30%;
-
+    margin-top: 5%;
+    padding: 3%;
     text-align: center;
     font-size: 1.4rem;
 }
@@ -135,13 +138,12 @@ h1 {
     #navBar {
         padding: 0;
         display: flex;
-        justify-content: space-around;
         background-color: #FBF7E3;
         border-radius: 0;
         width: 100%;
         margin: 0%;
         flex-wrap: wrap;
-
+        align-items: center;
     }
 
     #navBar button {
@@ -150,26 +152,28 @@ h1 {
         align-items: center;
         border: 0;
         padding: 1.5em;
-        color: #612406;
-        background-color: #F3DF85;
-        border-radius: 45px;
         height: 2em;
-        margin: 0;
-        width: 15%;
-        order: 0;
+        margin: 5px;
+        width: 16%;
     }
 
+    #b4,
+    #b5 {
+        order: 2 !important;
+    }
 
     #b3 {
-        width: 20% !important;
-        font-size: 1.2em;
-        height: 2em !important;
+        border: 0;
         padding: 1.5em !important;
-        order: -1 !important;
+        height: 2em !important;
+        margin: 5px !important;
+        width: 16% !important;
+        order: 1 !important;
+        font-size: 1.3em;
     }
 
-    #b3 button img {
-        font-size: 1rem !important;
+    #logoImg {
+        height: 1.5em !important;
     }
 }
 
@@ -204,6 +208,8 @@ h1 {
         height: 2em;
         margin: 5px 5%;
         width: 80%;
+        order: 0 !important;
+
     }
 
     #b3 {
@@ -212,8 +218,12 @@ h1 {
         font-size: 1.2em;
         height: 2em !important;
         padding: 1.5em !important;
-        order: 2;
+        order: 1;
+        display: flex;
+        flex-direction: row;
     }
+
+
 }
 
 #testo {

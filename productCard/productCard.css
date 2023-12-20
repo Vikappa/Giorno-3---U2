@@ -42,7 +42,13 @@ body {
     padding: 1px;
 }
 
-#productCard div span {}
+#productCard div span {
+    width: 30%;
+    margin-top: 5%;
+    padding: 3%;
+    text-align: center;
+    font-size: 1.4rem;
+}
 
 
 #productCard div div {
