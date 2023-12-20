@@ -1,8 +1,27 @@
-@media screen and (min-width: 769px) {
-    #shopWrap {
-        display: flex;
-        flex-wrap: wrap;
-    }
+#shopWrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* #shopWrap,
+#flexible {
+    margin: 0 auto;
+} */
+
+body {
+    color: #612406;
+    font-family: sans-serif;
+    position: relative;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 1em 0 0 1em;
 }
 
 #productCard {
@@ -25,14 +44,6 @@
     display: flex;
     justify-content: space-between;
     margin: 2px;
-}
-
-#productCard div div p,
-#productCard div div h6,
-#productCard div span,
-#productCard div button {
-    color: #612406;
-    font-family: sans-serif;
 }
 
 #productCard div {
@@ -88,12 +99,11 @@
     justify-content: space-around;
     background-color: #FBF7E3;
     border-radius: 60px;
-    width: 100%;
-    margin: 5%;
+    width: 95%;
     flex-wrap: wrap;
 }
 
-
+#shopWrap {}
 
 #logoImg {
     width: 3rem;
@@ -155,7 +165,7 @@
         font-size: 1.2em;
         height: 2em !important;
         padding: 1.5em !important;
-        order: 2;
+        order: -1 !important;
     }
 
     #b3 button img {
@@ -171,10 +181,12 @@
     #navBar {
         padding: 0;
         display: flex;
+        flex-direction: column;
         justify-content: flex-start;
         background-color: #FBF7E3;
         border-radius: 0;
         height: 100%;
+        width: 10vw;
         margin: 0%;
         flex-wrap: wrap;
     }
@@ -190,8 +202,17 @@
         background-color: #F3DF85;
         border-radius: 45px;
         height: 2em;
-        margin: 5px;
+        margin: 5px 5%;
         width: 80%;
+    }
+
+    #b3 {
+        width: 80% !important;
+        margin: 5px 5%;
+        font-size: 1.2em;
+        height: 2em !important;
+        padding: 1.5em !important;
+        order: 2;
     }
 }
 
